@@ -261,15 +261,15 @@ module.exports = bosco = async (bosco, mek) => {
         
         if (antibot === true) return
 		const catl = (teks) => {
-             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 400, "message": teks, "footerText": "*Pepe Ser*", "thumbnail": dfrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 400, "message": teks, "footerText": "*Toxic-Turbo*", "thumbnail": dfrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              bosco.relayWAMessage(res)
         }
        const catlo = (teks) => {
-             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 70000, "message": teks, "footerText": "Made With Pepe", thumbnail: fs.readFileSync('./ds.jpg'), "surface": 'CATALOG' }}, {quoted:ftroli})
+             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 70000, "message": teks, "footerText": "Made With Turbo", thumbnail: fs.readFileSync('./ds.jpg'), "surface": 'CATALOG' }}, {quoted:ftroli})
              bosco.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/BzhyWkAEU0t8oVl3s8p94m', "groupName": `Bosco Family`, "footerText": "*Pepe Ser*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
+        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '120363037743581565@g.us', "inviteCode": 'https://chat.whatsapp.com/EQiRSt1omhJ3EqilWhacvo', "groupName": `Turbo Family`, "footerText": "*Toxic-Turbo*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
             bosco.relayWAMessage(grup)
         }
         try {
@@ -377,7 +377,7 @@ module.exports = bosco = async (bosco, mek) => {
 			               "groupJid": "6288213840883-1616169743@g.us",
 			               "inviteCode": "mememteeeekkeke",
 			               "groupName": ".bot", 
-                           "caption": `𝑪𝑴𝑫 𝑬𝑿𝑪𝑳𝑼𝑫𝑬𝑫 : \n 𝑵𝑬𝑾 𝑭𝑬𝑼𝑻𝑬𝑹𝑺 𝑨𝑫𝑫𝑬𝑫 \n 𝑴𝑨𝑫𝑬 𝑩𝒀 𝑷𝑬𝑷𝑬 𝑺𝑰𝑹`, 
+                           "caption": `𝑪𝑴𝑫 𝑬𝑿𝑪𝑳𝑼𝑫𝑬𝑫 : \n 𝑵𝑬𝑾 𝑭𝑬𝑼𝑻𝑬𝑹𝑺 𝑨𝑫𝑫𝑬𝑫 \n 𝑴𝑨𝑫𝑬 𝑩𝒀 *TOXICTURBO*`, 
                            'jpegThumbnail': fs.readFileSync(`ds.jpg`)
 		                }
 	               }
@@ -660,7 +660,7 @@ const ftrol = {
            if(mime.split("/")[0] === "audio"){
            mime = Mimetype.mp4Audio
 }
-           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : PEPE SIR${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
+           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : TURBO${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
                      
            fs.unlinkSync(filename)
 });
@@ -954,13 +954,13 @@ const ftrol = {
             switch(command){
            
             case 'owner':
-            ini_ownerNumber = [`${setting.owner}@s.whatsapp.net`,`917736622139@s.whatsapp.net`,`12502880746@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`]
+            ini_ownerNumber = [`${setting.owner}@s.whatsapp.net`,`916380260672@s.whatsapp.net`,`916380260672@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`]
             let ini_list = []
 		    for (let i of ini_ownerNumber) {
 			const vname_ = bosco.contacts[i] != undefined ? bosco.contacts[i].vname || bosco.contacts[i].notify : undefined
 		     ini_list.push({
-			 "displayName": 'Owner Bosco',
-			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Pepe Ser;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Its me Pepe\nEND:VCARD`
+			 "displayName": 'Owner Turbo',
+			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Turbo Mods;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Its me Turbo\nEND:VCARD`
 			  })
 			  }
 			 hehe = await bosco.sendMessage(from, {
@@ -999,7 +999,7 @@ const ftrol = {
  break
     
     case 'boscogroup':
-     function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBosco='https://chat.whatsapp.com/BzhyWkAEU0t8oVl3s8p94m',catlo(groupBosco));
+     function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBosco='https://chat.whatsapp.com/EQiRSt1omhJ3EqilWhacvo',catlo(groupBosco));
     break
     case 'ownermenu':
     owner1 =`
@@ -1259,7 +1259,7 @@ wa.me/${owner}`
             bosco.relayWAMessage(osk)
        break
    case 'credits':
-   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','0','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','917736622139','1506VxXXmd','split','12502880746','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='0',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
+   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','0','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','916380260672','1506VxXXmd','split','12502880746','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='0',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
         break
 //------------------< Sticker Cmd >-------------------
 
@@ -1314,7 +1314,7 @@ wa.me/${owner}`
            {title: 'close', description: "", rowId: `CLOSE`},
            {title: 'on', description: "", rowId: `on`},
            {title: 'off', description: "", rowId: `off`}]
-          section = [{title: "Sᴜʙsᴄɪʙᴇ Yᴛ Pᴇᴘᴇ Sɪʀ Fᴏʀ Mᴏʀᴇ Uᴘᴅᴀᴛᴇs", rows: rows}]
+          section = [{title: "Sᴜʙsᴄɪʙᴇ Yᴛ Turbo Fᴏʀ Mᴏʀᴇ Uᴘᴅᴀᴛᴇs", rows: rows}]
           button = {buttonText: 'SELECT', description: `*Gʀᴏᴜᴘ [ᴏᴘᴇɴ/ᴄʟᴏsᴇ]*\n*Dɪsᴀᴘᴘᴇᴀʀ Mᴇsᴀᴀɢᴇ [ᴏɴ/ᴏғғ]*`,
           sections: section, listType: 1}
           bosco.sendMessage(from, button, MessageType.listMessage, {quoted: ftroli})
@@ -1611,7 +1611,7 @@ break
        case 'denis':
               if (!q) return
               qq = q.toUpperCase()
-              awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, Pepe Poli Ahn ${qq} Pepe Killadi Ahnu ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
+              awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, Poli Ahn ${qq} Pepe Killadi Ahnu ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
               reply(awikwok)
               break
         case 'jadibot':
