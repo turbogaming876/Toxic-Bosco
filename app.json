@@ -1,8 +1,8 @@
 {
   "name": "Bosco",
   "description": "Bosco is a whatsapp bot made by @pepe sir with baileys",
-  "repository": "https://github.com/pepesir/Bosco",
-  "logo": "https://telegra.ph/file/f40d0ef77439f516c050f.jpg",
+  "repository": "https://github.com/TOXICTURBO/Toxic-Bosco",
+  "logo": "https://telegra.ph/file/618aa23f2aa64b594e0a1.jpg",
   "keywords": ["bosco", "nodejs", "bot", "whatsapp bot", "whatsapp automation"],
   "buildpacks": [
     {
