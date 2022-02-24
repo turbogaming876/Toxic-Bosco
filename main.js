@@ -1,6 +1,6 @@
 /* 
 Don't change credits🥲🚶
-Sourcecode https://github.com/pepesir/Bosco
+Sourcecode https://github.com/TURBOHYPER/Toxic-Bosco
 Want to recode? yes, it's up to you as long as you don't change the watermark
 Don't sell the SC 😐👌
 */
@@ -128,7 +128,7 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
 			try {
 					ppimg = await bosco.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)
 				} catch {
-					ppimg = 'https://telegra.ph/file/618aa23f2aa64b594e0a1.jpg'
+					ppimg = 'https://telegra.ph/file/6c6c82a987306cc330978.jpg'
 				}
 			let buff = await getBuffer(ppimg)
 			const bosco1 = await bosco.prepareMessage("0@s.whatsapp.net", buff, MessageType.location,{ thumbnail: buff})
@@ -145,7 +145,7 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
 			try {
 					ppimg = await bosco.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)
 				} catch {
-					ppimg = 'https://telegra.ph/file/618aa23f2aa64b594e0a1.jpg'
+					ppimg = 'https://telegra.ph/file/6c6c82a987306cc330978.jpg'
 				}
 			let buff = await getBuffer(ppimg)
 			const bosco3= await bosco.prepareMessage("0@s.whatsapp.net", buff, MessageType.location,{ thumbnail: buff})
@@ -164,7 +164,7 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
 
     bosco.on('group-update', async (anu) => {
     falfa = { key: {fromMe: false,participant: "0@s.whatsapp.net",
-   remoteJid: "0@s.whatsapp.net"},message: {"groupInviteMessage": {"groupJid": "120363037743581565@g.us","inviteCode": "mememteeeekkeke","groupName": "Alphabot", "caption": `🌹 *Toxic-Turbo* 🌹`, 'jpegThumbnail': fs.readFileSync(`1.jpg`)}}}
+   remoteJid: "0@s.whatsapp.net"},message: {"groupInviteMessage": {"groupJid": "994403219940-1631515755@g.us","inviteCode": "mememteeeekkeke","groupName": "Alphabot", "caption": `𝐓𝚯𝚾𝚰𝐂 ₪ 𝚨𝐋𝚵𝚾𝚨  ⷡ  ⷪ  ⷮⷮ 🪀`, 'jpegThumbnail': fs.readFileSync(`1.jpg`)}}}
     metdata = await bosco.groupMetadata(anu.jid)
     if(anu.announce == 'false'){
     teks = `*[ Gʀᴏᴜᴘ Oᴘᴇɴᴇᴅ ]*\n`
