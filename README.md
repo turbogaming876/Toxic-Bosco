@@ -1,4 +1,4 @@
-#### HOW TO DEPLOY ?? [` CLICK HERE TO WATCH TUTORIAL ✨`](https://youtu.be/ZJQ50wYh7dc) 
+#### HOW TO DEPLOY ?? [` CLICK HERE TO WATCH TUTORIAL COMING SOON ✨`]() 
 #### NEW UPDATED VERSION COMING SOON 🙂🎈
 
 
@@ -11,9 +11,9 @@
 
 # Bosco Bot
 <p align="center">
- <a href="https://github.com/pepesir"><img title="Author" src="https://img.shields.io/badge/OWNER-h?color=black&style=for-the-badge&logo=github"></a>  <a href="https://Wa.me/+917736622139?text=Hello%20P3P3%20Bro🌝...fen%20boi%20aan😌💝"><img title="Author" src="https://img.shields.io/badge/Author P3P3 Sir-h?color=black&style=for-the-badge&logo=whatsapp"></a>
+ <a href="https://github.com/TURBOHYPER"><img title="Author" src="https://img.shields.io/badge/OWNER-h?color=black&style=for-the-badge&logo=github"></a>  <a href="https://Wa.me/+916380260672?text=Hello%20Turbo%20Bro🌝...fen%20boi%20aan😌💝"><img title="Author" src="https://img.shields.io/badge/Author Toxic-Bot-h?color=black&style=for-the-badge&logo=whatsapp"></a>
 <p align="center">
-<a href="https://chat.whatsapp.com/BzhyWkAEU0t8oVl3s8p94m"><img title="Author" src="https://img.shields.io/badge/WHATSAPP GROUP-h?color=black&style=for-the-badge&logo=whatsapp"></a>    <a href="https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA"><img title="Author" src="https://img.shields.io/badge/YT PEPE SIR-h?color=black&style=for-the-badge&logo=youtube"></a>
+<a href="https://chat.whatsapp.com/LWjJ4tu2qe9BWQZ1JzRZgp"><img title="Author" src="https://img.shields.io/badge/WHATSAPP GROUP-h?color=black&style=for-the-badge&logo=whatsapp"></a>    <a href="https://youtube.com/c/TamilTurboGamingYT"><img title="Author" src="https://img.shields.io/badge/Turbo Mods?color=black&style=for-the-badge&logo=youtube"></a>
 </p>
 
 
@@ -22,9 +22,9 @@
 >
 
 <p align="center">
-  <a href="https://github.com/pepesir/Bosco#requirements">Requirements</a> •
-  <a href="https://github.com/pepesir/Bosco#simple-method">Installation</a> •
-  <a href="https://github.com/pepesir/Bosco#thanks-to">Thanks to</a>
+  <a href="https://github.com/TURBOHYPER/Toxic-Bosco#requirements">Requirements</a> •
+  <a href="https://github.com/TURBOHYPER/Toxic-Bosco#simple-method">Installation</a> •
+  <a href="https://github.com/TURBOHYPER/Toxic-Bosco#thanks-to">Thanks to</a>
 </p>
 </div>
 
@@ -52,7 +52,7 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 ### `FOR TERMUX`
 
 * Yeah , It's now available for termux
-* First fork this repo and change session in <a href="https://github.com/pepesir/Bosco/blob/master/Denis.json">Denis.json</a> ,Then follow these commands ✅
+* First fork this repo and change session in <a href="https://github.com/TURBOHYPER/Toxic-Bosco/blob/master/Denis.json">Denis.json</a> ,Then follow these commands ✅
 * NOTE : U HAVE TO CLONE YOUR FORKED REPO , NOT MINE REPO !!
 
 
@@ -67,7 +67,7 @@ pkg install git
 pkg install bash
 ```
 ```
-git clone https://github.com/pepesir/Bosco.git 
+git clone https://github.com/TURBOHYPER/Toxic-Bosco.git 
 ```
 ```
 cd Bosco
@@ -106,8 +106,8 @@ you can contact us
 
 ### `THANKS TO`
 * 𝙳𝙴𝙽𝙸𝚂 𝚂𝙸𝚁
-* [`𝙺𝚁𝙸𝚉 𝚂𝙸𝚁`](https://github.com/KANNANSIR)
-* [`𝙿𝙴𝙿𝙴 𝚂𝙸𝚁`](https://github.com/pepesir)
+* [`ᴛᴜʀʙᴏ`](https://github.com/TURBOHYPER)
+* [`ᴊɪғɪ`](https://github.com/MD-JIFI)
 * [`𝚃𝙰𝚄𝚁𝚄𝚂`](https://github.com/I-AM-MUHAMMED)
 * [`𝙰𝙲𝙷𝚄 𝚂𝙸𝚁`](https://github.com/ACHUSIR8)
 * [`𝙱𝙰𝙸𝙻𝙴𝚈𝚂`](https://github.com/adiwajshing/Baileys)
