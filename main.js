@@ -56,8 +56,8 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
 		width: 80,
 		whitespaceBreak: false
 	}), 'yellow'))
-	console.log(color('[DENIS]', 'cyan'), color('WELCOME', 'white'))
-	console.log(color('[SER]', 'cyan'), color('BOT RUNNING', 'yellow'))
+	console.log(color('[TOXIC]', 'cyan'), color('WELCOME', 'white'))
+	console.log(color('[TURBO]', 'cyan'), color('BOT RUNNING', 'yellow'))
 	bosco.browserDescription = ["SUBSCRIBE YT - [TURBO]", "firefox", "3.0.0"];
 
 	// Menunggu QR
