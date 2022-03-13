@@ -991,272 +991,260 @@ const ftrol = {
  {buttonId:`${prefix}sc`,buttonText:{displayText:'SCRIPT'},type:1},
  {buttonId:`${prefix}boscogroup`,buttonText:{displayText:'BOT GROUP'},type:1}
 ]
- menumessage = { contentText: ` `, footerText: `${hehe}`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
- bosco.sendMessage(from, menumessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
- break
-        case 'help':
-        var _0x893b24=_0x14ba;(function(_0x51857e,_0x1b9999){var _0x7c9370=_0x14ba,_0x24611e=_0x51857e();while(!![]){try{var _0x564bf3=parseInt(_0x7c9370(0xc1))/0x1+-parseInt(_0x7c9370(0xd8))/0x2*(parseInt(_0x7c9370(0xc8))/0x3)+-parseInt(_0x7c9370(0xd5))/0x4+parseInt(_0x7c9370(0xd0))/0x5*(parseInt(_0x7c9370(0xbf))/0x6)+parseInt(_0x7c9370(0xc2))/0x7*(-parseInt(_0x7c9370(0xbc))/0x8)+parseInt(_0x7c9370(0xda))/0x9+parseInt(_0x7c9370(0xc3))/0xa*(-parseInt(_0x7c9370(0xe1))/0xb);if(_0x564bf3===_0x1b9999)break;else _0x24611e['push'](_0x24611e['shift']());}catch(_0x22a40f){_0x24611e['push'](_0x24611e['shift']());}}}(_0xb5e9,0x73f07));function _0x14ba(_0x341725,_0x5452d5){var _0xb5e91b=_0xb5e9();return _0x14ba=function(_0x14ba11,_0x23b45b){_0x14ba11=_0x14ba11-0xb9;var _0x51dd3a=_0xb5e91b[_0x14ba11];return _0x51dd3a;},_0x14ba(_0x341725,_0x5452d5);}function _0xb5e9(){var _0x225f9e=['groupmenu','heapUsed','totalmem','725QVrWUs','editmenu','memoryUsage','\x0a\x0a▢\x20*Hɪ\x20Bʀᴏ*\x20@','rules','696744qUeXev','https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg','s.whatsapp.net','8PwmOYE','split','7512822eHRfau','jid','getProfilePicture','ownermenu','downloadmenu','length','\x0a\x0a▢\x20*Rᴀᴍ\x20:*\x20','42691gnYerm','\x20-\x20','CLICK\x20HERE','\x0a\x0a▢\x20*Tɪᴍᴇ\x20:*\x20','array','extramenu','80qBMwRf','\x0a\x0a▢\x20*Tᴏᴛᴀʟ\x20:*\x20','toFixed','14856nslEgA','sendMessage','404500gaLaak','238945rUCCdW','30pQpduY','charging\x20again','slot','\x0a\x0a▢\x20*Sᴘᴇᴇᴅ\x20:*\x20','not\x20charging','447159KbTuMT','uptime','chats','g.us','\x0a\x0a▢\x20*Gʀᴏᴜᴘs\x20:*\x20'];_0xb5e9=function(){return _0x225f9e;};return _0xb5e9();}try{pporang=await bosco[_0x893b24(0xdc)](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{pporang=_0x893b24(0xd6);}fcre=await getBuffer(pporang),groups=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x151396=>_0x151396[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xcb))),privat=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x476114=>_0x476114[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xd7))),ram2=(process[_0x893b24(0xd2)]()[_0x893b24(0xce)]/0x400/0x400)[_0x893b24(0xbe)](0x2)+'MB\x20/\x20'+Math['round'](require('os')[_0x893b24(0xcf)]/0x400/0x400)+'MB',charger=''+(charging?_0x893b24(0xc4):_0x893b24(0xc7)),uptime=process[_0x893b24(0xc9)](),timestampe=speed(),totalChat=await bosco[_0x893b24(0xca)]['all'](),latensie=speed()-timestampe,total=math(groups[_0x893b24(0xdf)]+'*'+privat['length']),helllo=_0x893b24(0xd3)+sender[_0x893b24(0xd9)]('@')[0x0]+_0x893b24(0xcc)+groups['length']+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a▢\x20*Pʀɪᴠᴀᴛᴇ\x20:*\x20'+privat['length']+_0x893b24(0xbd)+totalChat[_0x893b24(0xdf)]+_0x893b24(0xe0)+ram2+_0x893b24(0xc6)+latensie['toFixed'](0x4)+_0x893b24(0xb9)+jmn+'\x0a\x0a',rows3=[{'title':prefix+_0x893b24(0xbb),'description':'','rowId':prefix+_0x893b24(0xbb)},{'title':prefix+_0x893b24(0xcd),'description':'','rowId':prefix+_0x893b24(0xcd)},{'title':prefix+_0x893b24(0xdd),'description':'','rowId':prefix+_0x893b24(0xdd)},{'title':prefix+_0x893b24(0xd1),'description':'','rowId':prefix+_0x893b24(0xd1)},{'title':prefix+'storagemenu','description':'','rowId':prefix+'storagemenu'},{'title':prefix+_0x893b24(0xde),'description':'','rowId':prefix+'downloadmenu'},{'title':prefix+'rules','description':'','rowId':prefix+_0x893b24(0xd4)},{'title':prefix+_0x893b24(0xc5),'description':'','rowId':prefix+'slot'},{'title':prefix+'group','description':'','rowId':prefix+'group'}],sectionsro=[{'title':jmn+_0x893b24(0xe2)+week+_0x893b24(0xe2)+calender,'rows':rows3}],buttonro={'buttonText':_0x893b24(0xe3),'description':''+helllo,'sections':sectionsro,'listType':0x1},bosco[_0x893b24(0xc0)](from,buttonro,MessageType['listMessage'],{'quoted':ftrol,'caption':'hehe','contextInfo':{'mentionedJid':[sender]}});
- break
-    
-    case 'boscogroup':
-     function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBosco='https://chat.whatsapp.com/LWjJ4tu2qe9BWQZ1JzRZgp',catlo(groupBosco));
-    break
-    case 'ownermenu':
-    owner1 =`
-▢ 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 ▢ 
-
-
-▢ ${prefix}setbgmpic
-
-▢ ${prefix}setthumb
-
-▢ ${prefix}clearall
-
-▢ ${prefix}tobc
-
-▢ ${prefix}bc
-
-▢ ${prefix}getquoted
-
-▢ ${prefix}restart
-
-▢ ${prefix}term
-
-▢ ${prefix}block
-
-▢ ${prefix}unblock
-
-▢ ${prefix}leaveall
-
-▢ ${prefix}addcmd
-
-▢ ${prefix}delcmd
-
-▢ ${prefix}jadibot
-
-▢ ${prefix}listjadibot
-
-▢ ${prefix}stopjadibot
-
-▢ ${prefix}exif
-
-▢ ${prefix}join
-
-▢ ${prefix}return
-
-▢ ${prefix}public
-
-▢ ${prefix}self
-
-▢ ${prefix}readall
-`
-catlo(owner1)
-   break
-   case 'groupmenu':
-      group1 = `
-▢ 𝑮 𝑹 𝑶 𝑼 𝑷 - 𝑴 𝑬 𝑵 𝑼 ▢ 
- 
-
-▢ ${prefix}add
-
-▢ ${prefix}kick
-
-▢ ${prefix}promote
-
-▢ ${prefix}demote
-
-▢ ${prefix}disappear
-
-▢ ${prefix}group
-
-▢ ${prefix}antilink
-
-▢ ${prefix}totag
-
-▢ ${prefix}hidetag
-
-▢ ${prefix}translate
-
-▢ ${prefix}getdeskgc
-
-▢ ${prefix}getbio
-
-▢ ${prefix}getpp
-
-▢ ${prefix}getname
-`
-catlo(group1)
-    break
-    case 'editmenu':
-     edit1 = `
-▢ 𝑬 𝑫 𝑰 𝑻 - 𝑴 𝑬 𝑵 𝑼 ▢ 
-
-
-▢ ${prefix}secvn
-
-▢ ${prefix}secvideo
-
-▢ ${prefix}tomp3
-
-▢ ${prefix}tomp4
-
-▢ ${prefix}toimg
-
-▢ ${prefix}baby
-
-▢ ${prefix}bass
-
-▢ ${prefix}reverse
-
-▢ ${prefix}slow
-
-▢ ${prefix}squirrel
-
-▢ ${prefix}blub
-
-▢ ${prefix}fat
-
-▢ ${prefix}imagetourl
-
-▢ ${prefix}voice
-
-▢ ${prefix}nightcore
-
-▢ ${prefix}cm
-
-▢ ${prefix}fast
-
-▢ ${prefix}gemes
-
-▢ ${prefix}slowvid
-
-▢ ${prefix}fastvid
- 
-▢ ${prefix}reversevid
-
-▢ ${prefix}tts
-`
-catlo(edit1)
-      break
-      case 'storagemenu':
-        storage1 = `
-▢ 𝑺 𝑻 𝑶 𝑹 𝑨 𝑮 𝑬 - 𝑴 𝑬 𝑵 𝑼 ▢ 
-
-
-▢ ${prefix}addvn
-
-▢ ${prefix}addvideo
-
-▢ ${prefix}addimage
-
-▢ ${prefix}addsticker
-
-▢ ${prefix}listvn
-
-▢ ${prefix}listvideo
-
-▢ ${prefix}listimage
-
-▢ ${prefix}liststicker
-
-▢ ${prefix}delvn
-
-▢ ${prefix}delvideo
-
-▢ ${prefix}delimage
-
-▢ ${prefix}delsticker
-
-`
-catlo(storage1)
-      break
-      case 'extramenu':
-      extra1 = `
-▢ 𝑬 𝑿 𝑻 𝑹 𝑨 - 𝑴 𝑬 𝑵 𝑼 ▢ 
-
-
-▢ ${prefix}chat
-
-▢ ${prefix}fitnahpc
-
-▢ ${prefix}contact
-
-▢ ${prefix}forward
-
-▢ ${prefix}forwardvideo
-
-▢ ${prefix}forwardaudio
-`
- catlo(extra1)
-     break
-     case 'downloadmenu':
-     download1 = `
-▢ 𝑫 𝑶 𝑾 𝑵 𝑳 𝑶 𝑨 𝑫 - 𝑴 𝑬 𝑵 𝑼 ▢ 
-
-▢ ${prefix}play
-
-▢ ${prefix}ytmp3
-
-▢ ${prefix}ytmp4
-
-▢ ${prefix}igdl
-
-▢ ${prefix}ytsearch
-
-▢ ${prefix}igstory
-
-▢ ${prefix}scplay
-
-▢ ${prefix}pinterest
-
-▢ ${prefix}telesticker
-
-▢ ${prefix}githubsearch
-
-▢ ${prefix}googleimage
-
-▢ ${prefix}ytdesk
-
-▢ ${prefix}lyric
-
-?? ${prefix}playstore
-
-▢ ${prefix}mediafire
-
-▢ ${prefix}fb
-
-▢ ${prefix}tiktoknown
-
-▢ ${prefix}tiktokaudio
-
-▢ ${prefix}tiktokdl
-
-▢ ${prefix}twitter
-
-▢ ${prefix}tinyurl
-
-▢ ${prefix}google
-` 
-catlo(download1)
-    break
-
-    
-   case 'rules':
-           rules1 = `
------[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----
-
-1. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻𝙻 𝙱𝙾𝚃
-
-2. 𝙳𝙾𝙽𝚃 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃
-
-3. 𝙳𝙾𝙽𝚃 𝙿𝙼 𝙱𝙾𝚃
-
-4. 𝙳𝙾𝙽𝚃 𝙼𝙸𝚂𝚄𝚂𝙴 𝚃𝙷𝙴 𝙱𝙾𝚃
-
-5. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁
-wa.me/${owner}`
-       osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
-            bosco.relayWAMessage(osk)
+❏「 \`\`\`INFO USER\`\`\` 」
+
+╾ _Status : ${isOwner ? 'Owner' : 'User'}_
+╾ _Nama : ${pushname}_
+╾ _Bio : ${stst}_
+╾ _Nomor : @${stod.split('@')[0]}_
+╾ _Info Nomor : ${num.line_type} - ${num.country_name} - ${num.carrier}_`
+sendButDocument(from, `${menu}`, "*_© Dcode Denpa_*", fs.readFileSync('./sampah/Denpa'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/image/banner.jpg'), filename:`${jmn} - ${week} - ${calender}`}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${tampilUcapan} ${pushname}`,body:`*click here to play music`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/uQiF1yOnzDg`}}})
+break
+case 'command':
+ stod = `${sender}`
+ listMsg = {
+ buttonText: 'LIST MENU',
+ footerText: '*_© Dcode Denpa_*',
+ description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
+ sections: [
+                     {
+                      "title": `${jmn} - ${week} ${weton} - ${calender}`,
+ rows: [
+                          {
+                              "title": "Script",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "Speed",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "Status",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "Creator",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "Jadibot",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "Runtime",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "OwnerMenu",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "MakerMenu",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "GroupMenu",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "OtherMenu",
+                              "rowId": ""
+                           },
+                           {
+                              "title": "DownloadMenu",
+                              "rowId": ""
+                           }
+                        ]
+                     }],
+ listType: 1
+}
+denz.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [stod]},quoted:ftrol})
+break
+case 'ownermenu':
+menu = `❏ 「 \`\`\`MENU OWNER\`\`\` 」
+├────────────────────
+├ ${prefix}stopjadibot
+├ ${prefix}autorespon [ _on/off_ ]
+├ ${prefix}antidelete [ _on/off_ ]
+├ ${prefix}autoread [ _on/off_ ]
+├ ${prefix}fakevn [ _on/off_ ]
+├ ${prefix}fakengetik [ _on/off_ ]
+├ ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
+├ ${prefix}tobc [ _reply sticker/audio with caption_ ]
+├ ${prefix}return [ _javascript_ ]
+├ ${prefix}clearall
+├ ${prefix}delchat
+├ ${prefix}mute
+├ ${prefix}unmute
+├ ${prefix}public
+├ ${prefix}self
+├ ${prefix}spam [ _teks|jumlah_ ]
+├ ${prefix}demoteall
+├ ${prefix}promoteall
+├ ${prefix}addcmd [ _teks reply stc_ ]
+├ ${prefix}delcmd [ _reply stc_ ]
+├ ${prefix}listcmd
+├ ${prefix}spamsw [ _teks|jumlah_ ]
+├ ${prefix}upswteks [ _teks_ ]
+├ ${prefix}upswlokasi [ _teks_ ]
+├ ${prefix}upswaudio [ _reply audio_ ]
+├ ${prefix}upswvoice [ _reply audio_ ]
+├ ${prefix}upswsticker [ _reply sticker_ ]
+├ ${prefix}upswimage [ _reply image with caption_ ]
+├ ${prefix}upswgif [ _reply gif with caption_ ]
+├ ${prefix}upswvideo [ _reply video with caption_ ]
+├ ${prefix}shutdown
+├ ${prefix}offline [ _alasan_ ]
+├ ${prefix}online
+├ ${prefix}exif [ _nama|author_ ]
+├ ${prefix}setprofile [ _reply image_ ]
+├ ${prefix}setname [ _teks_ ]
+├ ${prefix}setprefix [ _multi/nopref/allpref/teks_ ]
+├ ${prefix}setbio [ _teks_ ]
+├ ${prefix}addsticker [ _nama_ ]
+├ ${prefix}delsticker [ _nama_ ]
+├ ${prefix}addvn [ _nama_ ]
+├ ${prefix}delvn [ _nama_ ]
+├ ${prefix}addimage [ _nama_ ]
+├ ${prefix}delimage [ _nama_ ]
+├ ${prefix}bug [ _jumlah_ ]
+├ ${prefix}bugpc2 [ _jumlah_ ]
+├ ${prefix}bugtroli2 [ _jumlah_ ]
+├ ${prefix}bugpc
+├ ${prefix}bugcombine
+├ ${prefix}bugtroli
+├ ${prefix}buglokasi
+├ ${prefix}bughole
+├ ${prefix}leave
+├ ${prefix}restart
+├ ${prefix}join [ _link group_ ]
+├ ${prefix}addrespon [ _tanya|jawab_ ]
+├ ${prefix}delrespon [ _nama_ ]
+└ ${prefix}listrespon`
+katalog(menu)
+break
+case 'downloadmenu':
+menu = `❏ 「 \`\`\`MENU DOWNLOAD\`\`\` 」
+├────────────────────
+├ ${prefix}infogempa
+├ ${prefix}herolist
+├ ${prefix}herodetail [ _hero_ ]
+├ ${prefix}google [ _search_ ]
+├ ${prefix}gimage [ _search_ ]
+├ ${prefix}wiki [ _search_ ]
+├ ${prefix}mediafire [ _link_ ]
+├ ${prefix}ytsearch [ _judul_ ]
+├ ${prefix}ytmp4 [ _link yt_ ]
+├ ${prefix}ytmp3 [ _link yt_ ]
+├ ${prefix}play [ _judul lagu_ ]
+├ ${prefix}video [ _judul video_ ]
+├ ${prefix}tinyurl [ _link_ ]
+├ ${prefix}fetch [ _link_ ]
+├ ${prefix}igdl [ _link_ ]
+├ ${prefix}tiktokdl [ _link_ ]
+├ ${prefix}pinterest [ _search_ ]
+├ ${prefix}lirik [ _judul_ ]
+├ ${prefix}tourl [ _reply image/video_ ]
+├ ${prefix}resepmasakan [ _judul_ ]
+├ ${prefix}artimimpi [ _teks_ ]
+├ ${prefix}bilangangka [ _angka_ ]
+├ ${prefix}kalkulator [ _angka_ ]
+├ ${prefix}fancytext [ _teks_ ]
+├ ${prefix}githubstalk [ _username_ ]
+├ ${prefix}translate [ _teks kodebhs_ ]
+└ ${prefix}ss [ _link_ ]`
+katalog(menu)
+break
+case 'makermenu':
+menu = `❏ 「 \`\`\`MENU MAKER\`\`\` 」
+├────────────────────
+├ ${prefix}matrix [ _teks_ ]
+├ ${prefix}googletxt [ _teks_ ]
+├ ${prefix}spiderman [ _teks_ ]
+├ ${prefix}express [ _teks_ ]
+├ ${prefix}dance [ _teks_ ]
+├ ${prefix}blackbird [ _teks_ ]
+├ ${prefix}halloween [ _teks_ ]
+├ ${prefix}vampire [ _teks_ ]
+├ ${prefix}codetxt [ _teks_ ]
+├ ${prefix}text3d [ _teks_ ]
+└ ${prefix}warrior [ _teks_ ]`
+katalog(menu)
+break
+case 'groupmenu':
+menu = `❏ 「 \`\`\`MENU GROUP\`\`\` 」
+├────────────────────
+├ ${prefix}getpict [ _@tag_ ]
+├ ${prefix}getname [ _reply target_ ]
+├ ${prefix}getbio [ _reply target_ ]
+├ ${prefix}promote [ _@tag_ ]
+├ ${prefix}demote [ _@tag_ ]
+├ ${prefix}antilink [ _1/0_ ]
+├ ${prefix}antibug [ _1/0_ ]
+├ ${prefix}creategrup [ _nama|@tag_ ]
+├ ${prefix}tictactoe [ _@tag_ ]
+├ ${prefix}delttt
+├ ${prefix}getpp
+├ ${prefix}kick [ _@tag_ ]
+├ ${prefix}add [ _nomor_ ]
+├ ${prefix}getdeskgc
+├ ${prefix}sider [ _reply pesan bot_ ]
+├ ${prefix}hacked [ _teks_ ]
+├ ${prefix}setnamegc [ _teks_ ]
+├ ${prefix}setdeskgc [ _teks_ ]
+├ ${prefix}fitnah [ _@tag|teks1|teks2_ ]
+├ ${prefix}kontak [ _@tag|nama_ ]
+├ ${prefix}kontag [ _@tag|nama_ ]
+├ ${prefix}opengc
+├ ${prefix}closegc
+├ ${prefix}resetlinkgc
+├ ${prefix}linkgrup
+├ ${prefix}hidetag [ _teks_ ]
+├ ${prefix}sticktag [ _nama sticker_ ]
+└ ${prefix}totag [ _reply media_ ]`
+katalog(menu)
+break
+case 'othermenu':
+menu = `❏ 「 \`\`\`MENU OTHER\`\`\` 」
+├────────────────────
+├ ${prefix}jadibot
+├ ${prefix}caripesan [ _teks|jumlah_ ]
+├ ${prefix}slots
+├ ${prefix}suit [ _gunting/batu/kertas_ ]
+├ ${prefix}tag [ _nomor_ ]
+├ ${prefix}tagme
+├ ${prefix}tts [ _kodebhs teks_ ]
+├ ${prefix}readmore [ _teks1|teks2_ ]
+├ ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
+├ ${prefix}chat [ _nomor|teks_ ]
+├ ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
+├ ${prefix}listimage
+├ ${prefix}liststicker
+├ ${prefix}listvn
+├ ${prefix}listgrup
+├ ${prefix}baileys [ _reply message_ ]
+├ ${prefix}q [ _reply message_ ]
+├ ${prefix}getcaption [ _reply message_ ]
+├ ${prefix}pantun
+├ ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
+├ ${prefix}sharelock [ _teks1|teks2_ ]
+├ ${prefix}sticker
+├ ${prefix}stickerwm [ _nama|author_ ]
+├ ${prefix}takestick [ _nama|author_ ]
+├ ${prefix}colong [ _reply sticker_ ]
+├ ${prefix}dadu
+├ ${prefix}semoji [ _emoji_ ]
+├ ${prefix}attp [ _teks_ ]
+├ ${prefix}toimg
+├ ${prefix}tomp3 [ _reply video_ ]
+├ ${prefix}tomp4 [ _reply sticker gif_ ]
+├ ${prefix}robot [ _reply audio_ ]
+├ ${prefix}balik [ _reply audio_ ]
+├ ${prefix}bass [ _reply audio_ ]
+├ ${prefix}gemuk [ _reply audio_ ]
+├ ${prefix}detikvn [ _reply audio caption angka_ ]
+└ ${prefix}detikvideo [ _reply video caption angka_ ]`
+katalog(menu)
        break
    case 'credits':
    function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','0','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','916380260672','1506VxXXmd','split','919995801023','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='0',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
